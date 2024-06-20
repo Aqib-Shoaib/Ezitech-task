@@ -1,0 +1,8 @@
+.app-hero {
+  height: 100vh;
+  background: #034f93; /* Fallback color */
+  background: linear-gradient(rgba(3, 79, 147, 0.8), rgba(2, 27, 78, 0.8)),
+    url("./Ezitech-imags/111.jpg");
+  background-size: cover;
+  background-position: center;
+}

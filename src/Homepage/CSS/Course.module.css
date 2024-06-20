@@ -1,0 +1,12 @@
+.courseBox {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 5rem;
+}
+.courseBox h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}

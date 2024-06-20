@@ -1,0 +1,68 @@
+.footer {
+  background: linear-gradient(rgb(21, 44, 92), rgb(12, 44, 112)),
+    url("src/Ezitech-imags/blurred_code.jpeg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footerHeading {
+  color: white;
+  font-size: 3rem;
+  margin: 2rem 1rem;
+}
+.footerHeading span {
+  color: #4f78f8;
+}
+.bottom {
+  display: grid;
+  grid-template-columns: 20rem 30rem 20rem 20rem;
+  color: white;
+  padding: 1rem 2rem;
+}
+.courseBox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+.courses {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3rem;
+}
+.courseBox div {
+  display: flex;
+  flex-direction: column;
+}
+.author {
+  color: gray;
+}
+.courseBox img {
+  width: 70px;
+  height: 50px;
+  display: inline-block;
+}
+.about {
+  width: 15rem;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+}
+.about h3 {
+  padding: 5px 0;
+  font-size: 1.5rem;
+}
+.pages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contactbox {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.copyright {
+  color: white;
+  font-size: 1.25rem;
+}

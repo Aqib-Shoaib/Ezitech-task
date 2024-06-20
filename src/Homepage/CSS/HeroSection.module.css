@@ -1,0 +1,103 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: transparent;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.title {
+  font-size: 4rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.subTitle {
+  font-size: 2rem;
+  margin: 2.75rem 0;
+}
+.static {
+  text-transform: capitalize;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.searchbar {
+  border: none;
+  outline: none;
+  width: 25rem;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+.searchbox {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+}
+.icon {
+  color: grey;
+  font-size: 1.5rem;
+}
+.text {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+.wrapper {
+  display: inline-flex;
+  gap: 10px;
+}
+
+.dynamic {
+  list-style: none;
+  font-size: 4rem;
+  font-weight: 700;
+  height: 4.75rem;
+  overflow: hidden;
+}
+
+.dynamic li {
+  position: relative;
+  top: 0;
+  animation: showHide 10s steps(5) infinite;
+}
+
+.dynamic li span {
+  display: inline-block;
+  color: #00cbff;
+  /* animation: typing 5s steps(10) infinite; */
+}
+
+@keyframes typing {
+  100% {
+    width: 100%;
+    margin: 0 -35px 0 35px;
+  }
+}
+
+@keyframes showHide {
+  100% {
+    top: -290px;
+  }
+}
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 1rem;
+}
+.logo1 {
+  height: 7rem;
+  width: 14rem;
+}
+
+.logo2 {
+  height: 4rem;
+  width: 15rem;
+}
+.logo3 {
+  height: 5rem;
+  width: 15rem;
+}
